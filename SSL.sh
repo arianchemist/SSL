@@ -32,7 +32,7 @@ echo "[=][=][=][=][=][=][=][=][=][=][=][=][=][=]"
 echo "---> "
 read choosee
 #++++++++++++++++++++++++++++++++++++++++++++++++
-if [$choosee == "ss"]
+if [$choosee == "pc"]
 then
 #++++++++++++++++++++++++++++++++++++++++++++++++
 echo "input file to clear permissions :->: "
@@ -41,7 +41,7 @@ chmod u-x $fillle
 chmod u-r $fillle
 chmod u-w $fillle
 #++++++++++++++++++++++++++++++++++++++++++++++++
-elif [$choosee == "pc"]
+elif [$choosee == "ss"]
 then
 mkdir results
 cd results
